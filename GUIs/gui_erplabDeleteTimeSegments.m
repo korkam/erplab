@@ -84,14 +84,14 @@ set(handles.editbox_ignoreEventCodes, ...
 set(handles.checkbox_displayEEG, ...
     'Value', handles.displayEEG);
 
+
+
 % Set window title
 windowTitle = ['ERPLAB ' geterplabversion() '   -   Delete Time Segments GUI'];
 set(handles.gui_chassis, 'Name', windowTitle);      
 
 handles = painterplab(handles);                     % Set color GUI
 handles = setfonterplab(handles);                   % Set font size
-
-helpbutton % help button
 
 
 
